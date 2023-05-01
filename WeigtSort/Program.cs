@@ -4,8 +4,65 @@ using WeigtSort;
 
  var weights  = new Weights();
 
-    ShowConsoleAllWeight(weights.WeightArray);
+    ShowReadyWeight();
 
+
+
+
+
+void ShowReadyWeight()
+{
+    foreach(Array arr in weights.WeightArray)
+    {
+        List<int> intArr =  CheckCondition(arr);
+           
+           foreach(int i in intArr)
+            {
+                Console.Write(i+"|");
+            }
+            Console.Write("\n");
+    }
+
+
+}
+
+List<int> CheckCondition(Array condWeight)
+{
+   List<int> arrWeight = new List<int>();
+
+    foreach (Array arrVar in  condWeight)
+    {
+        if(arrVar.Length != 2)
+        {
+        Console.WriteLine("Сondition > 2!");
+        break;
+        }
+
+        if((int)arrVar.GetValue(0) > (int)arrVar.GetValue(1))
+        {
+            Console.WriteLine("Error condition!");
+            break;
+        }
+
+        foreach(int i in arrVar)
+        {
+            bool check = false;
+
+            foreach(int k in arrWeight )
+            if(k==i) check = true;
+           
+           if(check)
+           continue;
+
+           else
+           arrWeight.Add(i);
+        
+        }
+         arrWeight.Sort();
+    } 
+     return arrWeight;
+
+}
 
 void ShowConsoleAllWeight(Array _weights)
  {
