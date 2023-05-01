@@ -2,11 +2,33 @@ namespace WeigtSort;
 
 public class Weights
 {
+    private Array weightArray;
+    
+    /// <summary>
+    /// Initialize array weights
+    /// </summary>
+    public  Weights()
+    {
+        weightArray = CreateWeight();
+    }
 
+/// <summary>
+/// Only get array weights
+/// </summary>
+/// <value></value>
+    public Array WeightArray
+    {
+        get
+        {
+            if(weightArray!= null)
+            return weightArray;
+            
+            else throw new ArgumentNullException();
+        }
+    }
 
     private Array CreateWeight()
     {
-
         var arrayWeght = new []
         {
                 new[] // 210
@@ -51,6 +73,7 @@ public class Weights
                     new [] {1, 0}
                 }
         };
+
         return arrayWeght;
     }
 
