@@ -1,0 +1,15 @@
+W:\Programming\Projects\Weight\WeigtSort\bin\Debug\net7.0\WeigtSort.exe
+w:\Programming\Projects\Weight\WeigtSort\bin\Debug\net7.0\WeigtSort.deps.json
+w:\Programming\Projects\Weight\WeigtSort\bin\Debug\net7.0\WeigtSort.runtimeconfig.json
+W:\Programming\Projects\Weight\WeigtSort\bin\Debug\net7.0\WeigtSort.dll
+W:\Programming\Projects\Weight\WeigtSort\bin\Debug\net7.0\WeigtSort.pdb
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.csproj.AssemblyReference.cache
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.GeneratedMSBuildEditorConfig.editorconfig
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.AssemblyInfoInputs.cache
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.AssemblyInfo.cs
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.csproj.CoreCompileInputs.cache
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.dll
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\refint\WeigtSort.dll
+W:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.pdb
+w:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\WeigtSort.genruntimeconfig.cache
+w:\Programming\Projects\Weight\WeigtSort\obj\Debug\net7.0\ref\WeigtSort.dll
