@@ -1,13 +1,8 @@
-﻿using System;
-using System.IO;
-using WeigtSort;
+﻿using WeigtSort;
 
- var weights  = new Weights();
+var weights  = new Weights();
 
-    ShowReadyWeight();
-
-
-
+ShowReadyWeight();
 
 
 void ShowReadyWeight()

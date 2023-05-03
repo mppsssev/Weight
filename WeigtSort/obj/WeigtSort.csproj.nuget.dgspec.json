@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj": {}
+    "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj": {}
   },
   "projects": {
-    "W:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj": {
+    "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj",
+        "projectUniqueName": "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj",
         "projectName": "WeigtSort",
-        "projectPath": "W:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj",
+        "projectPath": "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj",
         "packagesPath": "C:\\Users\\Worker\\.nuget\\packages\\",
-        "outputPath": "W:\\Programming\\Projects\\Weight\\WeigtSort\\obj\\",
+        "outputPath": "w:\\Programming\\Projects\\Weight\\WeigtSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Worker\\AppData\\Roaming\\NuGet\\NuGet.Config",
