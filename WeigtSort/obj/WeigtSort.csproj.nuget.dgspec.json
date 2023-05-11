@@ -1,17 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj": {}
+    "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeigtSort\\WeigtSort.csproj": {}
   },
   "projects": {
-    "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj": {
+    "C:\\Users\\Worker\\source\\repos\\mppsssev\\Weight\\WeightTests\\WeightTests.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Worker\\source\\repos\\mppsssev\\Weight\\WeightTests\\WeightTests.csproj",
+        "projectName": "WeightTests",
+        "projectPath": "C:\\Users\\Worker\\source\\repos\\mppsssev\\Weight\\WeightTests\\WeightTests.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeigtSort\\WeigtSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj",
+        "projectUniqueName": "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeigtSort\\WeigtSort.csproj",
         "projectName": "WeigtSort",
-        "projectPath": "w:\\Programming\\Projects\\Weight\\WeigtSort\\WeigtSort.csproj",
+        "projectPath": "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeigtSort\\WeigtSort.csproj",
         "packagesPath": "C:\\Users\\Worker\\.nuget\\packages\\",
-        "outputPath": "w:\\Programming\\Projects\\Weight\\WeigtSort\\obj\\",
+        "outputPath": "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeigtSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Worker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -25,9 +35,12 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
+          "net70": {
+            "projectReferences": {
+              "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeightTests\\WeightTests.csproj": {
+                "projectPath": "C:\\Users\\Worker\\Source\\Repos\\mppsssev\\Weight\\WeightTests\\WeightTests.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,25 +50,13 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "net70": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }
